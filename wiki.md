@@ -13,10 +13,10 @@ In the Seattle campus alone in 2023-2024, there was 33,973 students enrolled.
 
 ## <ins>The History of UW</ins>
 
-#### The founder of UW
+#### *The founder of UW*
 The University of Washington was founded by the Washington Territorial Legislature, which passed a bill in 1861 to establish the institution. While no single individual is credited as the sole "founder," key figures in its establishment include Isaac I. Stevens, the first governor of Washington Territory, who supported the creation of the university, and Elisha P. Ferry, a territorial legislator and later the first governor of the state of Washington, who played a significant role in its formation. The university was initially called the Territorial University of Washington before becoming the University of Washington following the state's admission to the Union in 1889.
 
-#### General History of the University of Washington
+#### *General History of the University of Washington* 
 The University of Washington (UW), founded in 1861 in Seattle, is one of the oldest public universities on the West Coast of the United States. Originally established as the Territorial University of Washington, its creation was prompted by the desire to provide higher education for the growing population of the Washington Territory. Initially housed in a building that served multiple purposes, the university struggled with limited resources and faculty. However, it began to grow rapidly after Washington achieved statehood in 1889, with an expanding curriculum and more funding. The university moved to its current campus in 1895, in what is now the University District of Seattle, and its reputation as an academic and research institution began to solidify.
 
 Throughout the 20th century, the University of Washington became a leader in research, technology, and the sciences. By the mid-1900s, UW had expanded its programs and established itself as a hub for innovation, notably contributing to the growth of Seattle's technology sector. Its medical and engineering schools have been particularly influential, producing numerous notable alumni in various fields. Over the years, UW has continually grown in size, diversity, and influence, and it is now recognized as one of the top public research universities in the world. The university's commitment to excellence in research, education, and public service remains central to its mission, making it a vital component of both the city of Seattle and the global academic community.
