@@ -4,6 +4,8 @@
 
 ![profile photo of lilian](profilephoto.jpg)
 
+---
+
 > **EDUCATION**
 
 Geography Data Science, University of Washington, Seattle Expected June 2026
