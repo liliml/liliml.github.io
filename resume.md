@@ -2,7 +2,7 @@
 
 *lilianml@uw.edu* | (111)-111-1111 | [https://www.linkedin.com/in/lilian-law-283641220/](https://www.linkedin.com/in/lilian-law-283641220/)
 
-![profile photo of lilian](Lilian.jpg)
+![profile photo of Lilian](<Lilian (1).jpg>)
 
 ---
 
