@@ -3,11 +3,14 @@
 
 
 > **EDUCATION**
+
 Geography Data Science, University of Washington, Seattle 					       Expected June 2026
 Relevant Coursework: Data Science Methods, GIS and Mapping, Intermediate Data Programming, Intro to Database Systems, Data Structures and Algorithms, Computer Programming I & II, Foundational Skills for Data Science, Statistical Reasoning, Calculus with Analytical Geometry Series
 
+---
 
-> WORK EXPERIENCE
+> **WORK EXPERIENCE**
+
 University of Washington Education Department - IT Helpdesk Support - Seattle, WA	      	       June 2023 - Present
 Trained new student workers
 Improved department’s overall efficiency via deployment of PowerShell and Bash automated scripts 
@@ -27,6 +30,7 @@ Developed course material and facilitated education for up to 30 students
 Proctored and scored exams 
 Guided and tutored students 
 
+---
 
 SKILLS
 Scripting Languages: Python, PowerShell, Bash, R, SQL
