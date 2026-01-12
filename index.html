@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>The Big Picture - Start Bootstrap Template</title>
+        <title>Lilian Law Profile Page</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -15,71 +15,107 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <a class="navbar-brand" href="#about_me">Lilian Law</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
+                        <!-- Source refrenced for link jump to certain part of page: https://stackoverflow.com/questions/8424785/link-to-a-section-of-a-webpage -->
                         <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#locations">History and Locations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resume_info">Resume and Contact Information</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Content-->
-        <section>
+
+        <!-- About me/Home nav bar section -->
+        <section id="about_me">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-6">
-                        <h1 class="mt-5">The Big Picture</h1>
+                        <h1 class="mt-5">About Me</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
+                        <img src="./Lilian (1)-1.jpg" alt="Profile photo">
                     </div>
                 </div>
             </div>
         </section>
+        <br>
         <!-- Bootstrap core JS-->
 
-        
-        <!-- Refrenced this source for code below: https://www.w3schools.com/howto/howto_css_image_gallery.asp -->
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_5terre.jpg">
-                <img src="img_5terre.jpg" alt="Cinque Terre">
-                </a>
-                <div class="desc">Add a description of the image here</div>
+        <!-- History and Locations nav bar section of page -->
+        <!-- class="container px-4 px-lg-5" is what should go at top of div and is what indents the text and content per section -->
+        <div class="container px-4 px-lg-5">
+            <div id="locations">
+                <h3>
+                    States I have Lived in
+                </h3>
+            </div>
+            <!-- Refrenced this source for code below: https://www.w3schools.com/howto/howto_css_image_gallery.asp -->
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img_5terre.jpg">
+                    <img src="img_5terre.jpg" alt="Cinque Terre">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+    
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img_forest.jpg">
+                    <img src="img_forest.jpg" alt="Forest">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+    
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img_lights.jpg">
+                    <img src="img_lights.jpg" alt="Northern Lights">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+    
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img_mountains.jpg">
+                    <img src="img_mountains.jpg" alt="Mountains">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+    
+            <div class="clearfix"></div>
+        </div>
+        <br>
+
+        <!-- Resume and contact information nav bar section of page -->
+        <div class="container px-4 px-lg-5" id="resume_info">
+            <h3>
+                Resume and Contact Information
+            </h3>
+            <div>
+                <p>Lilian Law</p>
+                <p>Major: Geography Data Science Major</p>
+                <p>email: lilianml@uw.edu</p>
+
+                <!--Referenced this source for embedding a pdf into a website, used the iFrame solution: https://www.geeksforgeeks.org/html/how-to-embed-pdf-file-using-html/ -->
+                <iframe 
+                    class="pdf" 
+                    src="./2025 Autumn Resume.docx.pdf"
+                    width="1100px" height="700px">
+                </iframe>
+
+                <p>Download pdf of resume:
+                    <!-- Referenced this source for pdf link download, here it opens the pdf in the browser with target="_blank": https://stackoverflow.com/questions/36899940/linking-to-a-pdf-file-with-html -->
+                    <a href="./2025 Autumn Resume.docx.pdf" target="_blank" type="application/pdf" rel="alternate" media="print">Resume</a>
+                </p>
             </div>
         </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_forest.jpg">
-                <img src="img_forest.jpg" alt="Forest">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_lights.jpg">
-                <img src="img_lights.jpg" alt="Northern Lights">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="img_mountains.jpg">
-                <img src="img_mountains.jpg" alt="Mountains">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-            </div>
-        </div>
-
-        <div class="clearfix"></div>
-
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
