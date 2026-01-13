@@ -18,12 +18,15 @@
                 <a class="navbar-brand" href="#about_me">Lilian Law</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Source refrenced for link jump to certain part of page: https://stackoverflow.com/questions/8424785/link-to-a-section-of-a-webpage -->
-                        <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#locations">History and Locations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#resume_info">Resume and Contact Information</a></li>
-                    </ul>
+                    <!-- TESTING ADDING EXTRA DIV BELOW FOR SMALLER NAV BAR! -->
+                    <div class="navbar-text">
+                        <ul class="navbar-nav ml-auto">
+                            <!-- Source refrenced for link jump to certain part of page: https://stackoverflow.com/questions/8424785/link-to-a-section-of-a-webpage -->
+                            <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#locations">History and Locations</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#resume_info">Resume and Contact Information</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -35,7 +38,7 @@
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-6">
                         <h1 class="mt-5">About Me</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
+                        <p>My name is Lilian Law. I have lived in Wisconsin, New Mexico, and Washington state, but have lived most of my life in Washington state. I am a senior majoring in Geography Data Science. After college I intend to pursue a career in Information Technology and become a systems administrator.</p>
                         <img src="./Lilian (1)-1.jpg" alt="Profile photo">
                     </div>
                 </div>
@@ -52,40 +55,35 @@
                     States I have Lived in
                 </h3>
             </div>
+            <div>
+                <p>For a majority of my life I have lived in Washington, however in addition to Washington I have lived in the following states from left to right. Click each image of the state to open the wikipedia page about the state:</p>
+            </div>
+
             <!-- Refrenced this source for code below: https://www.w3schools.com/howto/howto_css_image_gallery.asp -->
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img_5terre.jpg">
-                    <img src="img_5terre.jpg" alt="Cinque Terre">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Wisconsin">
+                    <img src="https://senatemajority.com/wp-content/themes/authentic_theme/images/states/state--WI.png" alt="Wisconsin State">
                     </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc">Wisconsin</div>
                 </div>
             </div>
     
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img_forest.jpg">
-                    <img src="img_forest.jpg" alt="Forest">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/New_Mexico">
+                    <img src="https://worldpopulationreview.com/images/state-outlines/nm/outline-nm.svg" alt="Forest">
                     </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc">New Mexico</div>
                 </div>
             </div>
     
             <div class="responsive">
                 <div class="gallery">
-                    <a target="_blank" href="img_lights.jpg">
-                    <img src="img_lights.jpg" alt="Northern Lights">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Washington_(state)">
+                    <img src="https://media.istockphoto.com/id/927018910/vector/map-of-the-u-s-state-of-washington.jpg?s=612x612&w=0&k=20&c=FlinbMhhV2MxWK8rAXhyacj1YCuR29d3gfbS-acsdYY=" alt="Northern Lights">
                     </a>
-                    <div class="desc">Add a description of the image here</div>
-                </div>
-            </div>
-    
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="img_mountains.jpg">
-                    <img src="img_mountains.jpg" alt="Mountains">
-                    </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc">Washington</div>
                 </div>
             </div>
     
@@ -110,7 +108,7 @@
                     width="1100px" height="700px">
                 </iframe>
 
-                <p>Download pdf of resume:
+                <p>View PDF of resume to view or download:
                     <!-- Referenced this source for pdf link download, here it opens the pdf in the browser with target="_blank": https://stackoverflow.com/questions/36899940/linking-to-a-pdf-file-with-html -->
                     <a href="./2025 Autumn Resume.docx.pdf" target="_blank" type="application/pdf" rel="alternate" media="print">Resume</a>
                 </p>
