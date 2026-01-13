@@ -122,6 +122,33 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+/* SECTION BELOW ADDED TO TEST unordered list AND HAVE ACITVE TAB BE HIGHLIGHTED AND HAVE HOVER FUNCTIONALITY */
+/* Source referenced for code below: https://www.w3schools.com/css/css_navbar_vertical.asp */
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Couldn't get active tab to work */
+/* li a.active {
+  background-color: #04AA6D;
+  color: white;  
+} */
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
+  text-decoration: underline;
+  /* Referenced for font style property to make italic text when hovering over text: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-style */
+  font-style: italic;
+}
+
+
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
